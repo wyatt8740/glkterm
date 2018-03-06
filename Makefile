@@ -10,7 +10,8 @@
 
 # Pick a C compiler.
 #CC = cc
-CC = gcc -ansi
+CC = i686-w64-mingw32-gcc -ansi
+#CC = gcc -ansi
 
 # You may need to set directories to pick up the ncurses library.
 #INCLUDEDIRS = -I/usr/5include
